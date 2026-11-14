@@ -1,0 +1,28 @@
+# Python虚拟环境
+.venv/
+venv/
+
+# Python缓存
+__pycache__/
+*.py[cod]
+
+# API密钥
+.streamlit/secrets.toml
+.env
+.env.*
+
+# 系统文件
+.DS_Store
+
+# 开发缓存
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# 构建文件
+build/
+dist/
+
+#用户信息
+stage*_result.json
+pipeline_result.json
